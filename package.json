@@ -1,0 +1,22 @@
+{
+  "name": "rcfmgr",
+  "version": "0.0.0",
+  "description": "A script to manage Rackspace Cloud Files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "teamup-frontend",
+    "deploy",
+    "Rackspace",
+    "Cloud",
+    "Files"
+  ],
+  "author": "Adrian Arias",
+  "license": "ISC",
+  "dependencies": {
+    "node-getopt": "~0.2.3",
+    "pkgcloud": "~0.9.0"
+  }
+}
