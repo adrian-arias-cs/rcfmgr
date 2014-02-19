@@ -36,6 +36,7 @@ var getopt = new Getopt([
   ['',  'container=ARG+',     'deploy the the specified container'],
   ['f', 'force-yes',          'force yes to conditions which require a Y/n answer'],
   ['l', 'list-files',         'list the files in a container'],
+  ['', 	'list-containers',    'list the containers'],
   ['u', 'upload-file',        'upload a file to a container'],
   ['d', 'delete-file',        'delete a file to a container'],
   ['h', 'help',               'print usage']
@@ -138,3 +139,6 @@ if(opt.options['delete-file']){
 	});
 };
 
+if(opt.options['list-containers']){
+	rcfmgr.listContainers();
+};
